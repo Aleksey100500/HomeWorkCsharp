@@ -7,13 +7,13 @@ if (b > a && b > c)
     Console.WriteLine(b);
 }
 
-else if (a > b && a > c)
+else if (a > b | a > c)
 
 {
     Console.WriteLine(a);
 }
 
-else if (c > a && c > b)
+else if (c > a | c > b)
 
 {
     Console.WriteLine(c);
