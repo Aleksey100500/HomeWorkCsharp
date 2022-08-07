@@ -1,23 +1,11 @@
 ﻿Console.Write("Введите число N, ");
-int N = Convert.ToInt32(Console.ReadLine());
+int N = Convert.ToInt32(Console.ReadLine());    // позволяет ввести нам с клавиатуры значение {N}
 
-int count = 1;
+int count = 1;           // переменная {count} является целочисленным типом данных
 
-if (N > 0)
+while (count <= N)         // система работает до тех пор, пока значение {count} станет = {N}
 {
-    while(count <= N)
-    {
-    int [] ch_numbers;
-    int [] nechet_numbers;
-
-    if ((count % 2) == 0)
-
-    {
-        ch_numbers[] == count;
-    }
-
-
-    Console.WriteLine("");
-    count++;
-    }
+    if (count % 2 == 0)
+        Console.Write("{0} ", count);       // выводит значения {count} подходящие по условию через пробел
+    count++;                // значение {count + 1}
 }
